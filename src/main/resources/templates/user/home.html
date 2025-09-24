@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base :: layout">
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Home | Medcom</title>
+</head>
+<body>
+	<div class="modern-bg" style="min-height:100vh; margin-top: 90px;">
+		<div class="row justify-content-center">
+			<div class="col-12 text-center">
+				<img src="/img/ecom.png" class="img-fluid modern-hero" style="max-width: 700px; margin-bottom: 30px;" alt="Medcom Home">
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-8 text-center">
+				<h1 class="display-4 fw-bold mb-4 modern-title">Welcome to Medcom Store!</h1>
+				<p class="lead mb-5">Your one-stop shop for medical products. Discover, shop, and manage your orders with ease.</p>
+			</div>
+		</div>
+		<div class="row g-4 justify-content-center">
+			<div class="col-md-4">
+				<div class="card card-sh glass-card h-100 text-center">
+					<img src="/img/ecom.png" class="card-img-top mx-auto d-block" style="width:120px; margin-top:20px;" alt="Shop Products">
+					<div class="card-body">
+						<h5 class="card-title">Shop Products</h5>
+						<p class="card-text">Browse our wide range of medical products and categories.</p>
+						<a href="/products" class="btn btn-gradient">View Products</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card card-sh glass-card h-100 text-center">
+					<img src="/img/profile_img/default.png" class="card-img-top mx-auto d-block" style="width:120px; margin-top:20px;" alt="Profile">
+					<div class="card-body">
+						<h5 class="card-title">Your Profile</h5>
+						<p class="card-text">Manage your account details and view your order history.</p>
+						<a href="/user/profile" class="btn btn-gradient">Go to Profile</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card card-sh glass-card h-100 text-center">
+					<img src="/img/ecom3.jpg" class="card-img-top mx-auto d-block" style="width:120px; margin-top:20px;" alt="Cart">
+					<div class="card-body">
+						<h5 class="card-title">Your Cart</h5>
+						<p class="card-text">View and manage products in your shopping cart.</p>
+						<a href="/user/cart" class="btn btn-gradient">View Cart</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-5">
+			<div class="col-12 text-center">
+				<h2 class="fw-bold modern-category-title" style="font-size:2rem; margin-top:40px;">Category</h2>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
